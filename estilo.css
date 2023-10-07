@@ -1,3 +1,4 @@
+/*Fontes*/
 @font-face {
     font-family: "Codec Pro Extrabold";
     src: url('https://freefonts.co/fonts/codec-pro-extrabold');
@@ -10,10 +11,37 @@
 
 * {
     background-color: #94c1a3;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
 }
 
-.capa button, .capa {
+.cabecalho {
     font-family: 'Codec Pro Extrabold';
+}
+
+.capa {
+    width: 50%;
+    font-family: 'Codec Pro Extrabold';
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.capa_titulo {
+    font-size: 65px;
+}
+
+.botao {
+    font-family: 'Codec Pro Extrabold';
+    font-size: 20px;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    border: 0.3px solid #af72ff;
+    background: linear-gradient(to right, #9340ff, #ff3c5f);
+    color: black;
 }
 
 .capa header {
@@ -26,11 +54,52 @@
 
 .titulos {
     font-family: 'Codec Pro Extrabold';
-    font-size: 48px;
+    font-size: 54px;
+    color: #9340ff;
 }
 
 .paragrafos {
     font-family: 'Codec Pro Regular';
     font-size: 18px;
+}
+
+#cabecalho {
+    width: 90%;
+    height: 20px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.secao {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.img_geral {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_frutas {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.secao_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    text-align: center;
 }
 
